@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap');
+
+*{margin: 0;
+padding: 0;
+text-decoration: none;
+list-style-type: none;
+}
+.wids100{
+    width: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    display: flex;
+    height: 800px;
+    width: 50%;
+}
+div.head.left{
+    background-image: url(/images/home-img.jpg);
+    background-position: 65% 80%;      
+    }
+.stimulus{
+    padding-top: 5%;
+    padding-left: 20%;
+    font-size: 20px;
+    font-weight: 800;
+    text-shadow: white 1px 1px 0px;
+}
+.right{
+    background-color:#F0E2D7;
+}
+menu{
+    padding-top: 5%;
+    padding-left: 5%;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    }
+    a{
+        color: grey;
+    }
+    a:hover{
+        color: goldenrod;
+    }
+.info {
+    display: flex;
+    height: 345px;
+    }
+.medium{
+    width: 25%;
+}
+.man{ 
+    background-image: url(/images/about-img.jpg);
+    background-position: 50% 0%;
+    
+    }
+.skills{
+    background-color: #E4AE58;
+    }
+.auctor{ 
+    background-color: wheat;
+    width: 50%; 
+}
+.work{
+display: flex;
+height: 345px;
+}
+.duty{
+    width: 25%;
+}
+.design{
+    background-color: #E4AE58;
+}
+.strategy{
+    background-color: #E9714C;
+}
+.app{
+    background-color: #161616;
+}
+.coding{
+    background-color: #FFFFFF;
+}
+.profession{
+    display: flex;
+    height: 385px;
+}
+.center{
+    width: 50%;
+}
+.phone{
+    background-image: url(/images/experience-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.exp{
+    background-color: #E9714C;
+}
+.study{
+    display: flex;
+    height: 410px;
+}
+.middle{
+    width: 50%;
+}
+.education{
+background-color: #E4AE58;
+}
+.notebook{
+    background-image: url(/images/education-img.jpg);
+    background-size: cover;
+    }
+.picture{
+    height: 450px;
+    width: 100%;
+    background-image: url(/images/quotes-bg.jpg);
+    background-size: cover;
+}
+.blackout{
+    height: 450px;
+    width: 100%;
+    background-color: rgba(9, 9, 10, 0.726);
+}
+.feedback{
+    display: flex;
+    height: 650px;
+    width: 100%;
+}
+.hello{
+    width: 50%;
+    background-color: #E9714C;
+}
+.macbook{
+    width: 25%;
+    background-image: url(/images/contact-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contact{
+    width: 25%;
+    background-color: #161616;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 345px;
+    width: 100%;
+}

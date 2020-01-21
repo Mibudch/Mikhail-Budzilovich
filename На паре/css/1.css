@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 80px;
+    display: flex;
+    background-color: blue;
+    border: 3px solid black;
+}
+
+.trainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    background-color: green;
+    border: 3px solid black;
+    height: 50px;
+    width: 285px;
+    padding: 6px;
+}
+
+.FC {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    background-color: purple;
+    border: 3px solid black;
+    height: 50px;
+    padding: 6px;
+}
+
+.Logo {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    background-image: url(/img/cuiDYUl6HXw.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    height: 50px;
+    width: 50px;
+    padding: 6px;
+}
+
+.content {
+    display: flex;
+}
+
+.container {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 1000px;
+    background-color: brown;
+}
+
+.menu {
+    margin-top: 10px;
+    width: 500px;
+    background-color: violet;
+}
+
+.lorem {
+    margin-top: 10px;
+    background-color: aqua;
+    border: 3px solid black
+}
+
+.navigator {
+    margin-top: 10px;
+    background-color: darkgoldenrod;
+    border: 3px solid black;
+}
