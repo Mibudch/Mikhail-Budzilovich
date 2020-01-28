@@ -36,7 +36,8 @@ font-family: 'Roboto', sans-serif;
 /* картинка  и размеры top_left квадрата */
 .top_left_image{
     background-image: url(/images/home-img.jpg);
-    background-position: 65% 80%; 
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /* текст в top_left_image квадрате */
 .stimulus{
@@ -54,10 +55,12 @@ font-family: 'Roboto', sans-serif;
     background-color:#F0E2D7;   
 }
 /* позиционирование шапки навигации */
-menu{
+ul{
+    width: 100%;
     padding-top: 3%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-flow: wrap;
 }
 /* оформление текста шапки навигации */
 .navigation{
@@ -93,7 +96,7 @@ menu{
 .start_button{
     background-color: #F0E2D7;
     height: 60px;
-    width: 20%;
+    width: 300px;
     border: 3px solid black;
     border-radius: 40px;
     text-transform: uppercase;
@@ -140,7 +143,9 @@ button:active{
 .man{
     width: 25%;
     background-image: url(/images/about-img.jpg);
-    background-position: 50% 0%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /* размер и цвет контейнера skills*/
 .skills{
@@ -399,6 +404,7 @@ button:active{
     width: 50%;
     background-image: url(/images/education-img.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 /* картинка задний фон */
 .picture{
@@ -406,6 +412,7 @@ button:active{
     width: 100%;
     background-image: url(/images/quotes-bg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 /* фон затемнения картинки */
 .blackout{
@@ -480,6 +487,7 @@ textarea{
     background-image: url(/images/contact-img.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 /* нижнее поле с контактами */
 .contact{

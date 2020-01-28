@@ -1,0 +1,39 @@
+
+@media(max-width: 1070px){
+    .small-white-text{
+        font-size: 14px;
+        color: white;
+        line-height: 1;
+    }
+}
+@media(max-width: 1002px){
+    .my_skills{
+        font-size: 40px;
+    }
+}
+    
+@media(max-width: 833px){
+    ul{
+        line-height: 2;
+    }
+    .large-white-text{
+        font-size: 40px;
+        color: white;
+    }
+}
+@media(max-width: 827px){
+    .my_skills{
+        font-size: 35px;
+    }
+    .percents_skills{
+        font-size: 13px;
+    }
+}
+@media(max-width: 768px){
+    .header{            
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 100%;
+    }
+}
