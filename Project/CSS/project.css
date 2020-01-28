@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap');
+
+*{margin: 0;
+padding: 0;
+text-decoration: none;
+list-style-type: none;
+font-family: 'Roboto', sans-serif;
+}
+/* цвет и размер основного текста */
+.style_main_text{
+    color: rgb(158, 158, 158);
+    font-size: 14px;
+    line-height: 2;
+}
+/* верхний регистр текста */
+.text_uppercase{
+    text-transform: uppercase;
+}
+/* цвет и размер основного желтого текста */
+.style_main_gold_text{
+    color: goldenrod;
+    font-size: 14px;
+    line-height: 2;
+}
+/* поле двух верхних квадратов*/
+.header{            
+    display: flex;
+    height: 800px;
+    width: 100%;
+}
+/* размеры двух верхних квадратов */
+.top_sqare{
+    width: 50%;
+    height: 800px;
+}
+/* картинка  и размеры top_left квадрата */
+.top_left_image{
+    background-image: url(/images/home-img.jpg);
+    background-position: 65% 80%; 
+}
+/* текст в top_left_image квадрате */
+.stimulus{
+    padding-top: 7%;
+    padding-left: 20%;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: white 1px 1px 0px;
+}
+/* цвет в top_right квадрате */
+.top_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#F0E2D7;   
+}
+/* позиционирование шапки навигации */
+menu{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* оформление текста шапки навигации */
+.navigation{
+    color: grey;
+    text-transform: uppercase;
+}
+.navigation:hover{
+    color: goldenrod;
+}
+/* позиционирование about_myself; welcome */
+.about_myself{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* контейнер кнопки get_started */
+.button_container{
+    padding-left: 5%;
+    height: 300px;
+}
+/* оформление текста hello */
+.text_hello{
+    font-size: 42px;
+}
+/* оформление слова stimulus в правом верхнем квадрате*/
+.text_stimulus{
+    font-weight: 600;
+}
+/* вид кнопки get started*/
+.start_button{
+    background-color: #F0E2D7;
+    height: 60px;
+    width: 20%;
+    border: 3px solid black;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(180, 180, 180);
+}
+button:active{
+    background-color: grey;
+}
+/* поле трех medium квадратов */
+.info {
+    display: flex;
+    widows: 100%;
+    height: 345px;
+}
+/* размер и интерьер контейнера auctor*/
+.auctor{
+    display: flex;
+    background-color: white;
+    width: 50%;
+}
+/* позиционирование контента в поле auctor */
+.position_content_auctor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+/* вид текста Donec auctor*/
+.text_auctor{
+    height: 70px;
+    font-size: 40px;
+}
+/* вид текста text_sed*/
+.text_sed{
+    height: 40px;
+    color: goldenrod;
+    font-size: 14px; 
+}
+/* размер и картинка контейнера man*/
+.man{
+    width: 25%;
+    background-image: url(/images/about-img.jpg);
+    background-position: 50% 0%;
+}
+/* размер и цвет контейнера skills*/
+.skills{
+    width: 25%;
+    background-color: #E4AE58;
+}
+/* позиционирование контента в поле skills */
+.position_content_skills{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 15%;
+    padding-left: 15%;
+    
+}
+/* текст my skills */
+.my_skills{
+    font-size: 50px;
+    color: white;
+}
+/* текст photoshop */
+.photoshop_skills{
+    font-size: 16px;
+    color: white;
+}
+/* верхний регистр */
+.html_uppercase{
+    text-transform: uppercase;
+}
+/* интерьер поля для всех процентов */
+.percents_skills{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 3;
+    font-weight: 600;
+    padding-right: 5%;
+}
+/* цвет скилов */
+.color_skills{
+    color: rgb(34, 34, 34);
+}
+/* цвет процентов */
+.color_percents{
+    color: white;
+}
+/* позиционирование скилов и процентов по сторонам*/
+.space-between_skills{
+    display: flex;
+    justify-content: space-between;
+}
+/* позиционирование черточек */
+.black-white_dash_position{
+    display: flex;
+    justify-content: space-between;
+}
+/* черная черточка: цвет и размер */
+ .black_dash{
+    background-color: rgb(34, 34, 34);
+    height: 2px;
+}
+/* белая черточка: цвет и размер */
+.white_dash{
+    background-color: white;
+    height: 2px;
+} 
+/* длина черной черточки для frontend */
+.frontend_black_dash{
+    width: 90%;
+}
+/* длина белой черточки для frontend */
+.frontend_white_dash{
+    width: 10%;
+}
+/* длина черной черточки для backend*/
+.backend_black_dash{
+    width: 70%;
+}
+/* длина белой черточки для backend*/
+.backend_white_dash{
+    width: 30%;
+}
+/* длина черной черточки для html*/
+.html_black_dash{
+    width: 80%;
+}
+/* длина белой черточки для html*/
+.html_white_dash{
+    width: 20%;
+}
+/* общее поле о работе */
+.work{
+    display: flex;
+    width: 100%;
+    height: 345px;
+}
+/* деление поля work */
+.separating_work{
+    height: 345px;
+    width: 25%;
+}
+/* цвета полей work */
+.design_work{
+    background-color: #E4AE58;
+}
+.strategy_work{
+    background-color: #E9714C;
+}
+.app_work{
+    background-color: #161616;
+}
+.coding_work{
+    background-color: #FFFFFF;
+}
+/* позиционирование и цвет текста внутри полей work */
+.position_work{
+    height: 325px;
+    width: 80%;
+    padding-top: 5%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+/* реверс цвета в последнем контейнере work */
+.color-reverse_work{
+    color: black;
+}
+/* общий стиль иконок */
+.fas{
+    color: white;
+    font-size: 40px;
+}
+/* черная иконка */
+.fab, .fa-html5{
+    color: black;
+    font-size: 40px;
+}
+/* размер среднего текста и контейнера в поле work */
+.medium_text_work{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+}
+/* размер нижнего контейнера в поле work */
+.bottom_text_work{
+    width: 100%;
+    height: 150px;
+    line-height: 2;
+}
+/* общее полe для image_center и experiences */
+.center{
+    display: flex;
+    height: 380px;
+}
+/* позиционирование картинки */
+.image_center{
+    width: 50%;
+    background-image: url(/images/experience-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* позиционирование experiences_center */
+.experiences_center{
+    width: 50%;
+    background-color: #E9714C;
+}
+/* маленький чёрный жирный шрифт */
+.small_X-weight_black-text{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+/* маленький белый шрифт */
+.small-white-text{
+    font-size: 16px;
+    color: white;
+    line-height: 2;
+}
+/* средний белый шрифт */
+.medium-white-text{
+    font-size: 25px;
+    color: white;
+    line-height: 2;
+}
+/* большой белый шрифт */
+.large-white-text{
+    font-size: 50px;
+    color: white;
+}
+/* самый большой белый шрифт */
+.largest-white-text{
+    font-size: 42px;
+    color: white;
+    line-height: 2;
+}
+/* контейнер иконок и design */
+.container_experiences_center{
+    height: 380;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* позиционирование Experiences и education*/
+.position_word-experiences{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 120px;
+    padding-left: 10%;
+}
+/* позиционирование иконок комьютера */
+.desktop-icons_flex{
+    width: 17%;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2%;
+}
+/* позиционирование иконок компьютера и design */
+.icons-design_flex{
+    height: 220px;
+    display: flex;
+    padding-top: 3%;
+}
+/* позиционирование designer-сов относительно друг друга */
+.designer_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 220px;
+    width: 70%;
+    padding-left: 5%;
+}
+/* общее полe для и experiences image_notebook */
+.study{
+    display: flex;
+    height: 380px;
+}
+/* правый study квадрат */
+.education{
+    width: 50%;
+    background-color: #E4AE58;
+}
+/* левый study квадрат */
+.image_notebook{
+    width: 50%;
+    background-image: url(/images/education-img.jpg);
+    background-size: cover;
+}
+/* картинка задний фон */
+.picture{
+    height: 450px;
+    width: 100%;
+    background-image: url(/images/quotes-bg.jpg);
+    background-size: cover;
+}
+/* фон затемнения картинки */
+.blackout{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 100%;
+    background-color: rgba(9, 9, 10, 0.726);
+}
+/* позиционирование контейнера со звёздочкой */
+.flex_star{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;  
+}
+/* общее поле для трех контейнеров */
+.feedback{
+    display: flex;
+    height: 650px;
+    width: 100%;
+}
+/* поле say hello */
+.hello{
+    width: 50%;
+    background-color: #E9714C;
+}
+/* позиционирование в поле hello */
+.container_hello{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+/* стиль полей name и email */
+.input_name_email{
+    background-color: #E9714C;
+    height: 40px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid goldenrod;
+}
+/* стиль текста поля для вводя */
+.placeholder_style::placeholder{
+    color: white;
+    font-size: 20px;
+}
+/* стиль поля your name */
+textarea{
+    background-color: #E9714C;
+    width: 90%;
+    height: 200px;
+    resize: none;
+    border: none;
+    border-bottom: 2px solid goldenrod;
+}
+/* стиль кнопки send*/
+.send_button{
+    height: 50px;
+    width: 45%;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+}
+/* нижний контейнер картинки с макбуком */
+.macbook{
+    width: 25%;
+    background-image: url(/images/contact-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* нижнее поле с контактами */
+.contact{
+    width: 25%;
+    background-color: #161616;
+}
+/* интерьер в поле contact */
+.contact_position{
+    height: 300px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+/* стили нижних иконок */
+i.grey{
+    color: gray;
+    font-size: 16px;
+}
+/* позиционирование контактных данных */
+.contact_web-number{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 90%;
+}
+/* позиционирование в footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 345px;
+    width: 100%;
+}
+/* позиционирование нижних иконок */
+.bottom_icons_container{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
