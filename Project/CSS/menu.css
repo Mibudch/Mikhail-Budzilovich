@@ -1,0 +1,22 @@
+.toggle{
+    display: none;
+}
+.red-square{
+    display: none;
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+.toggle:checked ~ .red-square{
+   display: block;
+}
+
+.a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+    
+
+  

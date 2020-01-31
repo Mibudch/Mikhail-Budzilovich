@@ -2,7 +2,6 @@
 @media(max-width: 1070px){
     .small-white-text{
         font-size: 14px;
-        color: white;
         line-height: 1;
     }
 }
@@ -18,7 +17,6 @@
     }
     .large-white-text{
         font-size: 40px;
-        color: white;
     }
 }
 @media(max-width: 827px){
@@ -30,10 +28,222 @@
     }
 }
 @media(max-width: 768px){
-    .header{            
+    .start_button{
+        width: 200px;
+    }
+    .button_container{
+        height: 150px;
+    }
+    .info {
+        height: 690px;
+    }
+    .auctor{
+        width: 100%;
+    }
+    .man{
+        width: 50%;
+    }
+    .skills{
+        width: 50%;
+    }
+    .work{
+        height: 690px;
+    }
+    .separating_work{
+        width: 50%;
+    }
+    .position_word-experiences{
+        height: 120px;
+    }
+    .icons-design_flex{
+        height: 220px;
+        padding-top: 0%;
+    }
+        
+}
+@media(max-width: 665px){
+    .large-white-text{
+        font-size: 30px;
+    }
+    .largest-white-text{
+        font-size: 32px;
+        line-height: 1;
+    }
+    .position_word-experiences{
+        height: 70px;
+    } 
+}
+@media(max-width: 560px){
+    .header{
+        flex-direction: column-reverse;            
+        height: 800px;
+    }
+    .top_left_image{
+        width: 100%;
+    }
+    .top_right{
+        width: 100%;
+    }
+    .text_hello{
+        font-size: 32px;
+    }
+    .info{
+        height: 560px;
+    }
+    .auctor{
+        height: 280px;
+    }
+    .man{
+        height: 280px;
+    }
+    .skills{
+        height: 280px;
+    }
+    .work{
+        height: 560px;
+    }
+    .separating_work{
+        height: 280px;
+    }
+    .center{
+        flex-flow: wrap;
+        height: 620px;
+    }
+    .image_center{
+        width: 100%;
+        height: 310px;
+    }
+    .experiences_center{
+        width: 100%;
+        height: 310px;
+    }
+    .study{
+        flex-flow: wrap-reverse;
+        height: 620px;
+    }
+    .education{
+        width: 100%;
+        height: 310px
+    }
+    .image_notebook{
+        width: 100%;
+        height: 310px
+    }
+    .blackout{
+        height: 310px;
+    }
+    .picture{
+        height: 310px;
+    }
+    .flex_star{
+        height: 300px;
+    }
+    .feedback{
+        flex-flow: wrap;
+        height: 650px;
+    }
+    .hello{
+        width: 100%;
+    }
+    
+    .macbook{
+        width: 50%;
+    }
+    .contact{
+        width: 50%;
+    }
+}
+@media(max-width: 406px){
+    .navigation{
+        font-size: 14px;
+    }
+    .largest-white-text{
+        font-size: 30px;
+    }
+    .large-white-text{
+        font-size: 28px;
+    }
+    .medium-white-text{
+        font-size: 18px;
+    }
+    .small-white-text{
+        font-size: 12px;
+    }
+    .small_X-weight_black-text{
+        font-size: 12px;
+    }
+}
+@media(max-width: 406px){
+    ul{
+        line-height: 1;
+    }
+    .main_text{
+        font-size: 18px;
+    }
+    .text_hello{
+        font-size: 20px;
+    }
+    .text_uppercase{
+        text-align: center;
+    }
+    .style_main_text{
+        font-size: 12px;
+    }
+    .text_auctor{
+        font-size: 20px;
+    }
+    .my_skills{
+        font-size: 20px;
+    }
+    .photoshop_skills{
+        font-size: 14px;
+    }
+    .percents_skills{
+        line-height: 2;
+    }
+    .color_skills{
+        font-size: 10px;
+    }
+    .white-icon{
+        font-size: 20px;
+    }
+    .black-icon{
+        font-size: 23px;
+    }
+    .medium_text_work{
+        font-size: 20px;
+    }
+    .bottom_text_work{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .work{
+        height: 460px;
+    }
+    .separating_work{
+        height: 230px;
+    }
+    .largest-white-text{
+        font-size: 20px;
+        line-height: 2;
+    }
+    .large-white-text{
+        font-size: 20px;
+    }
+    .placeholder_style::placeholder{
+        font-size: 14px;
+    }
+    .span-flex{
         display: flex;
         flex-direction: column;
-        height: 800px;
-        width: 100%;
+    }
+    .small_X-weight_black-text{
+        line-height: 0.5;
+    }
+    .style_main_gold_text{
+        font-size: 11px;
+    }
+    .footer{
+        height: 200px;
     }
 }
