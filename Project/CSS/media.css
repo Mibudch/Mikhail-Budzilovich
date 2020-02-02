@@ -189,9 +189,6 @@
     .style_main_text{
         font-size: 12px;
     }
-    .text_auctor{
-        font-size: 20px;
-    }
     .my_skills{
         font-size: 20px;
     }
@@ -222,16 +219,6 @@
     }
     .separating_work{
         height: 230px;
-    }
-    .largest-white-text{
-        font-size: 20px;
-        line-height: 2;
-    }
-    .large-white-text{
-        font-size: 20px;
-    }
-    .placeholder_style::placeholder{
-        font-size: 14px;
     }
     .span-flex{
         display: flex;
