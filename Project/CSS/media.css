@@ -74,6 +74,9 @@
     } 
 }
 @media(max-width: 560px){
+    .stimulus{
+        padding-top: 15%;
+    }
     .first-time_menu{
         display: none;
     }

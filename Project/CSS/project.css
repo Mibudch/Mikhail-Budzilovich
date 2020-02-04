@@ -13,7 +13,7 @@ font-family: 'Roboto', sans-serif;
     width: 100%;
     background-color: rgba(240, 226, 215, 0.616);
     text-align: center;
-    position: relative;
+    position: fixed;
 }
 /* отключение тумблера */
 #toggle{
