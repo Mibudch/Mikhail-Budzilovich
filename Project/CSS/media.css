@@ -74,8 +74,14 @@
     } 
 }
 @media(max-width: 560px){
+    .first-time_menu{
+        display: none;
+    }
+    .burgermenu-container{
+        display: block;
+    }
     .header{
-        flex-direction: column-reverse;            
+        flex-direction: column;            
         height: 800px;
     }
     .top_left_image{
