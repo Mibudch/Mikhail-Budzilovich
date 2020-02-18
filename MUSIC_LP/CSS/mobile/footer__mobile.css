@@ -1,0 +1,119 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+}
+.footer__top{
+    width: 90%;
+    align-self: center;
+}
+.footer__contact-header{
+    display: block;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.footer__contact-item{
+    padding-bottom: 30px;
+    display: flex;
+}
+.footer__icon{
+    background-color: #02b875;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.footer__icon-style{
+    color: white;
+    font-size: 0.7em;
+}
+.footer__adress{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.footer__top-adress{
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.footer__bottom-adress{
+    display: block;
+    color: #343a40;
+    font-size: 0.6em;
+    font-weight: 500;
+}
+.footer__input-item{
+    padding-bottom: 30px;
+    display: flex;
+}
+.footer__social{
+    width: 30%;
+}
+.social-item{
+    font-size: 0.7em;
+    font-weight: 500;
+}
+.footer__input-text{
+    width: 70%;
+}
+.footer__input-window{
+    height: 35px;
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid #eee;
+}
+.footer__input-window::placeholder{
+    font-size: 0.7em;
+    font-weight: 400;
+}
+.footer__textarea{
+    resize: vertical;
+    border: none;
+    border-bottom: 3px solid #eee;
+}
+.footer__textarea::placeholder{
+    font-size: 0.7em;
+    font-weight: 400;
+}
+.footer__button{
+    display: flex;
+    flex-flow: row-reverse;
+    padding-bottom: 30px;
+}
+.footer__link{
+    text-transform: uppercase;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    background: linear-gradient(to right , #6887ff, #02b875);
+}
+.footer__link:focus {
+    background: none;
+    background-color: black;
+}
+.footer__bottom{
+    background-color: #6887ff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer__copyright{
+    font-size: 0.7em;
+    font-weight: 500;
+    line-height: 1.8;
+    color: white;
+}

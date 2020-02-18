@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
 @import url(/CSS/mobile/header__mobile.css);
-@import url(/CSS/mobile/main__mobile.css);
+@import url(/CSS/mobile/section-first__mobile.css);
+@import url(/CSS/mobile/section-second__mobile.css);
+@import url(/CSS/mobile/section-third__mobile.css);
+@import url(/CSS/mobile/section-forth-six__mobile.css);
+@import url(/CSS/mobile/section-fifth__mobile.css);
+@import url(/CSS/mobile/section-seventh__mobile.css);
+@import url(/CSS/mobile/section-eighth__mobile.css);
+@import url(/CSS/mobile/footer__mobile.css);
 /* Указываем шрифт убираем отступы */
 * {
   padding: 0;
@@ -8,12 +15,8 @@
   font-family: 'Ubuntu', sans-serif;
   list-style-type: none;
   font-size: calc(1em + 0.3vw);
-}
-/* Выставляем основные настройки по-умолчанию для body */
-body {
   scroll-behavior: smooth;
 }
-/* Элементы a сбрасываем до дефолтных стилей */
 a {
   text-decoration: none;
   color: inherit;
