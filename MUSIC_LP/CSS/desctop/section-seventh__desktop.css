@@ -1,0 +1,20 @@
+.card__blog{
+    width: 45%;
+}
+.card__image{
+    width: 320px;
+    height: 200px;
+}
+.card-text_head-text{
+    font-size: 0.6em;
+}
+.card-text_main-text{
+    font-size: 0.5em;
+}
+.card__body-text{
+    font-size: 0.5em;
+}
+.card__link{
+    width: 25%;
+    font-size: 0.5em;
+}

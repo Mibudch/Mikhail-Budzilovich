@@ -2,25 +2,25 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 1100px;
     background-color: #6887ff;
 }
 .about__image{
     width: 100%;
-    height: 500px;
+    height: 40%;
     background-image: url(/img/img__mobile/about__mobile.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: bottom;
+    background-position: center;
 }
 .about__flex{
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .about__container{
     width: 90%;
-    padding-left: 20px;
     padding-top: 40px;
 }
 .about__container:last-child{
@@ -35,8 +35,6 @@
     color: white;
     font-size: 1.2em;
     font-weight: 600;
-}
-.about__item_text-shadow{
     text-shadow: 0 0.03em black;
 }
 .about__item_text-size_m{
@@ -52,7 +50,7 @@
     height: 40px;
     background: linear-gradient(to right , #6887ff, #02b875);
 }
-.about__link:focus{
+.about__link:active{
     background: none;
     background-color: black;
 }

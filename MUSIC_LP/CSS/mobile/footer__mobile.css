@@ -66,23 +66,18 @@
     width: 70%;
 }
 .footer__input-window{
+    font-size: 16px;
     height: 35px;
     width: 90%;
     border: none;
     border-bottom: 3px solid #eee;
 }
-.footer__input-window::placeholder{
-    font-size: 0.7em;
-    font-weight: 400;
-}
 .footer__textarea{
+    width: 90%;
+    font-size: 16px;
     resize: vertical;
     border: none;
     border-bottom: 3px solid #eee;
-}
-.footer__textarea::placeholder{
-    font-size: 0.7em;
-    font-weight: 400;
 }
 .footer__button{
     display: flex;

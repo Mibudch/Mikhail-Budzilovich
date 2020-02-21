@@ -71,6 +71,7 @@
     background-image: url(/img/img__mobile/i1__mobile.png);
     background-size: contain;
     background-position-y: bottom;
+    background-position-x: center;
     background-repeat: no-repeat;
     align-self: center;
 }

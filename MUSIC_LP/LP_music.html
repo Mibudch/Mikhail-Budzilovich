@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/CSS/mobile/style-mobile.css">
+    <link rel="stylesheet" href="/CSS/css-reset.css">
+    <link rel="stylesheet" href="/CSS/media-container.css">
     <script src="https://kit.fontawesome.com/058b9511bf.js" crossorigin="anonymous"></script>
-    <title>Music Buzz Music Category Flat Bootstrap Responsive Website Template</title>
+    <title>Music Buzz</title>
 </head>
 
 <body>
+    <header>
     <div class="header">
-        <a class="main-link main-link_text-size_xxl" href="/LP_music.html"> Music Buzz</a>
+        <a class="main-link" href="/LP_music.html">Music Buzz</a>
         <input id="burger-menu__toggle" class="burger-menu__toggle_hide" type="checkbox">
         <label class="burger-menu__label" for="burger-menu__toggle">
             <div class="burger-menu">
@@ -22,42 +24,42 @@
             </div>
         </label>
         <div class="icon-container">
-            <i class="fab fa-facebook-f icon-container__icon icon_text-size_xl"><a href="#"></a></i>
-            <i class="fab fa-twitter icon-container__icon icon_text-size_xl"><a href="#"></a></i>
-            <i class="fab fa-google-plus-g icon-container__icon icon_text-size_xl"><a href="#"></a></i>
-            <i class="fab fa-linkedin-in icon-container__icon icon_text-size_xl"><a href="#"></a></i>
+            <a class="header__icon-link" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f header__icon"></i></a>
+            <a class="header__icon-link" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter header__icon"></i></a>
+            <a class="header__icon-link" href="https://accounts.google.com/" target="_blank"><i class="fab fa-google-plus-g header__icon"></i></a>
+            <a class="header__icon-link" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in header__icon"></i></a>
         </div>
         <nav class="navigation">
             <li class="navigation__li">
-                <a class="navigation__link navigation__link_text-size_m" href="#">Home</a>
+                <a class="navigation__link navigation__link_text-size_m" href="/LP_music.html">Home</a>
             </li>
             <li class="navigation__li">
-                <a class="navigation__link navigation__link_text-size_m" href="#">About</a>
+                <a class="navigation__link navigation__link_text-size_m" href="#about">About</a>
             </li>
             <li class="navigation__li navigation__li_flex">
                 <input id="li__input-toggle" class="li__input-toggle_hide" type="checkbox">
                 <label class="li__label li__label_text-size_m" for="li__input-toggle">Dropdown<span
                         class="li__label_uppercase">&#9660</span></label>
                 <div class="dropdown-wrapper">
-                    <a href="#" class="dropdown-wrapper__link dropdown-wrapper__link_text-size_m">Services</a><a
-                        href="#"
-                        class="dropdown-wrapper__link dropdown-wrapper__link_border-top dropdown-wrapper__link_text-size_m">Link1</a>
+                    <a href="#services" class="dropdown-wrapper__link dropdown-wrapper__link_text-size_m">Services</a>
+                    <a href="#link1" class="dropdown-wrapper__link dropdown-wrapper__link_border-top dropdown-wrapper__link_text-size_m">Link1</a>
                 </div>
             </li>
             <li class="navigation__li">
-                <a class="navigation__link navigation__link_text-size_m" href="#">Contact</a>
+                <a class="navigation__link navigation__link_text-size_m" href="#contact">Contact</a>
             </li>
         </nav>
         <div class="arrows">
             <a href="#" class="arrows__arrow"></a><a href="#footer" class="arrows__arrow arrow_bottom"></a>
         </div>
     </div>
+    </header>
     <main>
         <section class="section-first">
             <div class="banner banner_image">
                 <div class="banner__flex banner_gradient">
                     <div class="banner__container">
-                        <span class="banner__item banner__item_text-size_l banner__item_uppercase">listen to music buzz
+                        <span class="banner__item banner__item_text-size_l">listen to music buzz
                             anywhere.</span>
                     </div>
                     <div class="banner__container">
@@ -65,7 +67,7 @@
                             volutpat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus</span>
                     </div>
                     <div class="banner__container">
-                        <a class="banner__link banner__link_text-size_m" href="#">Read more</a>
+                        <a class="banner__link banner__link_text-size_m" href="#about">Read more</a>
                     </div>
                 </div>
             </div>
@@ -73,11 +75,10 @@
         <section class="section-second">
             <div class="about">
                 <div class="about__image"></div>
+                <a name="about"></a>
                 <div class="about__flex">
                     <div class="about__container">
-                        <span class="about__item about__item_text-size_xxl">Music buzz</span><span
-                            class="about__item about__item_text-size_xxl about__item_text-shadow">get addicted to
-                            music</span>
+                        <span class="about__item about__item_text-size_xxl">Music buzz</span><span class="about__item about__item_text-size_xxl">get addicted to music</span>
                     </div>
                     <div class="about__container">
                         <span class="about__item about__item_text-size_m">Vestibulum volutpat non eros ut vulputate.
@@ -91,20 +92,17 @@
                             fringilla tincidunt nulla. Vestibulum volutpat non eros uttate.</span>
                     </div>
                     <div class="about__container">
-                        <a class="about__link about__link_text-size_m" href="#">Know more</a>
+                        <a class="about__link about__link_text-size_m" href="#choose">Know more</a>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section-third">
+            <a name="choose"></a>
             <div class="head-services">
                 <div class="head-service">
-                    <div class="head-service__text-container">
-                        <span class="head-service__text">why choose us?</span>
-                    </div>
-                    <div class="head-service__link-container">
-                        <a class="head-service__link head-service__link_text-size_m" href="#">know more</a>
-                    </div>
+                    <span class="head-service__text">why choose us?</span>
+                    <a class="head-service__link head-service__link_text-size_m" href="#services">know more</a>
                 </div>
                 <div class="h-service">
                     <div class="h-service__top-container">
@@ -148,6 +146,7 @@
             </div>
         </section>
         <section class="section-forth-six">
+            <a name="services"></a>
             <div class="secton-forth-six-flex">
                 <div class="main-services">
                     <div class="our-servise-head">
@@ -187,30 +186,31 @@
             </div>
         </section>
         <section class="section-forth-six">
+            <a name="link1"></a>
                 <div class="secton-forth-six-flex">
                     <div class="secton-six__image"></div>
                         <div class="main-services">
                             <div class="our-servise-head">
-                                <span class="our-servise-head_text">our services</span>
+                                <span class="our-servise-head_text">we are unique</span>
                             </div>
                             <div class="our-service-body">
                                 <div class="our-service-body__item">
-                                    <span class="our-service-body__text-head">Service1</span><span
+                                    <span class="our-service-body__text-head">Heading1</span><span
                                         class="our-service-body__text-bottom">Itaque earum rerum hic tenetur a sapiente
                                         delectusum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.</span>
                                 </div>
                                 <div class="our-service-body__item">
-                                    <span class="our-service-body__text-head">Service2</span><span
+                                    <span class="our-service-body__text-head">Heading2</span><span
                                         class="our-service-body__text-bottom">Itaque earum rerum hic tenetur a sapiente
                                         delectusum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.</span>
                                 </div>
                                 <div class="our-service-body__item">
-                                    <span class="our-service-body__text-head">Service3</span><span
+                                    <span class="our-service-body__text-head">Heading3</span><span
                                         class="our-service-body__text-bottom">Itaque earum rerum hic tenetur a sapiente
                                         delectusum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.</span>
                                 </div>
                                 <div class="our-service-body__item">
-                                    <span class="our-service-body__text-head">Service4</span><span
+                                    <span class="our-service-body__text-head">Heading4</span><span
                                         class="our-service-body__text-bottom">Itaque earum rerum hic tenetur a sapiente
                                         delectusum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.</span>
                                 </div>
@@ -249,7 +249,7 @@
                         <div class="card__info-container">
                             <div class="card__head-item"><span class="card__head-text">music buzz</span> <span class="card__head-text">get addicted to music</span></div><span class="card__body-text">Vestibulum volutpat non eros ut vulputate. Nunc id risus accumsan Donec mi nulla, auctor nec sem a, ornare auctor mi. Sed mi tortor, commodo a felis in, fringilla tincidunt nulla.</span><span class="card__body-text">Donec mi nulla, auctor nec sem a, ornare auctor mi. Sed mi tortor, commodo a felis in, fringilla tincidunt nulla. Vestibulum volutpat non eros ut vulpuuctor nec sem a, ornare auctor mi. Sed mi tortor, commodo a felis in, fringilla tincidunt nulla. Vestibulum volutpat non eros uttate.</span>
                             <div class="card__button">
-                                <a href="#" class="card__link">Know more</a>
+                                <a href="#contact" class="card__link">Know more</a>
                             </div>
                         </div>
                     </div>
@@ -269,6 +269,7 @@
         </section>
     </main>
     <footer>
+        <a name="contact"></a>
         <div class="footer">
             <div class="footer__top">
                 <div class="footer__contact">
@@ -329,7 +330,7 @@
                             <span class="social-item">Message</span>
                         </div>
                         <div class="footer__input-text">
-                            <textarea class="footer__textarea" name="review" cols="15" rows="5" placeholder="Your message"></textarea>
+                            <textarea class="footer__textarea" name="review" cols="25" rows="10" placeholder="Your message"></textarea>
                         </div>
                     </div>
                 </div>
@@ -337,7 +338,7 @@
                     <a href="#" class="footer__link">submit</a>
                 </div>
             </div>
-            <div class="footer__bottom"><span class="footer__copyright">© 2018 Music Buzz. All rights reserved</span></div>
+            <div class="footer__bottom"><span class="footer__copyright">© 2018 Music Buzz. All rights reserved.</span></div>
         </div>
             <a name="footer"></a>
     </footer>

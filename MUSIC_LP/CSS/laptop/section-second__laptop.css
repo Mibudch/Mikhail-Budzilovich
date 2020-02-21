@@ -1,0 +1,21 @@
+.about{
+    height: 1500px;
+}
+.about__image{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/about.jpg);
+}
+.about__container{
+    width: 80%;
+    padding-top: 40px;
+}
+.about__item_text-size_m{
+    font-size: 0.5em;
+}
+.about__link{
+    width: 30%;   
+}
+.about__link_text-size_m{
+    font-size: 0.6em;
+}

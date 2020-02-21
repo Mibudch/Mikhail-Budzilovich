@@ -1,0 +1,21 @@
+.footer__contact-header{
+    font-size: 0.9em;
+}
+.footer__icon{
+    margin-right: 40px;
+    width: 60px;
+    height: 60px;
+}
+.footer__top-adress{
+    font-size: 0.5em;
+}
+.footer__bottom-adress{
+    font-size: 0.5em;
+}
+.social-item{
+    font-size: 0.5em;
+}
+.footer__link{
+    width: 25%;
+    font-size: 0.6em;
+}
