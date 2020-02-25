@@ -1,3 +1,4 @@
+/* Mobile min-width 320px */
 .head-service{
     display: flex;
     flex-direction: column;
@@ -78,4 +79,41 @@
     font-size: 0.7em;
     font-weight: 500;
     padding-left: 15px; 
+}
+/* laptop min-width 768px */
+@media (min-width: 768px){
+    .head-service__link{
+        margin-top: 25px;
+        width: 25%;
+    }
+    .h-service__text{
+        font-size: 0.5em;
+    }
+}
+/* desktop min-width 1024px */
+@media (min-width: 1024px){
+    .head-services{
+        display: flex;
+        margin-top: 60px;
+    }
+    .h-service{
+        width: 25%;
+        height: 500px;
+    }
+    .head-service__link{
+        width: 65%;
+    }
+    .h-service__icon-container {
+        width: 80px;
+        height: 80px;
+    }
+    .h-service__icon {
+        font-size: 42px;
+    }
+    .h-service__text-container_text-size_m {
+        font-size: 0.6em;
+    }
+    .h-service__text {
+        font-size: 0.4em;
+    }
 }

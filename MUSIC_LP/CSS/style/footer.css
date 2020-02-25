@@ -1,3 +1,4 @@
+/* Mobile min-width 320px */
 .footer{
     display: flex;
     flex-direction: column;
@@ -111,4 +112,49 @@
     font-weight: 500;
     line-height: 1.8;
     color: white;
+}
+/* laptop min-width 768px */
+@media (min-width: 768px){
+    .footer__contact-header{
+        font-size: 0.9em;
+    }
+    .footer__icon{
+        margin-right: 40px;
+        width: 60px;
+        height: 60px;
+    }
+    .footer__top-adress{
+        font-size: 0.5em;
+    }
+    .footer__bottom-adress{
+        font-size: 0.5em;
+    }
+    .social-item{
+        font-size: 0.5em;
+    }
+    .footer__link{
+        width: 25%;
+        font-size: 0.6em;
+    }
+}
+/* desktop min-width 1024px */
+@media (min-width: 1024px){
+    .footer__top {
+        width: 90%;
+        align-self: center;
+        display: flex;
+        flex-flow: wrap;
+    }
+    .footer__contact{
+        width: 50%;
+    }
+    .footer__input{
+        width: 50%;
+    }
+    .footer__button{
+        width: 100%
+    }
+    .footer__copyright {
+        font-size: 0.5em;
+    }
 }

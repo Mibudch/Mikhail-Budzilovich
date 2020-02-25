@@ -1,3 +1,4 @@
+/* Mobile min-width 320px */
 .card{
     display: flex;
     flex-direction: column;
@@ -109,4 +110,58 @@
 .card__link:active{
     background: none;
     background-color: black;
+}
+/* laptop min-width 768px */
+@media (min-width: 768px){
+    .card__blog{
+        width: 45%;
+    }
+    .card__image{
+        width: 320px;
+        height: 200px;
+    }
+    .card-text_head-text{
+        font-size: 0.6em;
+    }
+    .card-text_main-text{
+        font-size: 0.5em;
+    }
+    .card__body-text{
+        font-size: 0.5em;
+    }
+    .card__link{
+        width: 25%;
+        font-size: 0.5em;
+    }
+}
+/* desktop min-width 1024px */
+@media (min-width: 1024px){
+    .card{
+        flex-direction: row;
+    }
+    .card__blog-container{
+        width: 50%;
+    }
+    .card__text-board{
+        width: 50%;
+    }
+    .card__image {
+        width: 100%;
+        height: 120px;
+    }
+    .card__text-container{
+        width: 100%;
+    }
+    .card__link {
+        width: 50%;
+    }
+    .card__body-text {
+        font-size: 0.4em;
+    }
+    .card-text_head-text {
+        font-size: 0.5em;
+    }
+    .card-text_main-text {
+        font-size: 0.4em;
+    }
 }

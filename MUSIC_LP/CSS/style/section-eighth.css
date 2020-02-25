@@ -1,3 +1,4 @@
+/* Mobile min-width 320px */
 .bottom-board{
     width: 100%;
     background-image: url(/img/img__mobile/slide__mobile.jpg);
@@ -39,4 +40,20 @@
     font-weight: 500;
     line-height: 1.8;
     color: white;
+}
+/* laptop min-width 768px */
+@media (min-width: 768px){
+    .bottom-board__item_item-bottom{
+        font-size: 0.5em;
+    }
+}
+/* desktop min-width 1024px */
+@media (min-width: 1024px){
+    .bottom-board__content {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .bottom-board__item_item-bottom {
+        font-size: 0.4em;
+    }
 }

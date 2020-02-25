@@ -1,3 +1,4 @@
+/* Mobile min-width 320px */
 .banner{
     width: 100%;
     display: flex;
@@ -56,4 +57,34 @@
 .banner__link:active {
     background: none;
     background-color: black;
+}
+/* laptop min-width 768px */
+@media (min-width: 768px){
+    .banner_image{
+        height: 400px;
+    }
+    .banner__item_text-size_l{
+        font-size: 1.3em;
+    }
+    .banner__link{
+        width: 25%;
+    }
+    .banner__link_text-size_m{
+        font-size: 0.6em;
+    }
+}
+/* desktop min-width 1024px */
+@media (min-width: 1024px){
+    .banner__container{
+        width: 80%;
+    }
+}
+/* desktop min-width 1280px */
+@media (min-width: 1280px){
+    .banner__container {
+        width: 60%;
+    }
+    .banner__item_text-size_m {
+        font-size: 0.4em;
+}
 }
