@@ -20,7 +20,7 @@
 .our-servise-head_text{
     text-transform: uppercase;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-weight: 600;
     text-shadow: 0px 1px 1px #000000;
 }
@@ -43,7 +43,7 @@
     width: 100%;
     height: 40%;
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 .our-service-body__text-bottom{
@@ -51,15 +51,15 @@
     align-items: center;
     width: 100%;
     height: 60%;
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
     line-height: 2;
     color: white;
     padding-bottom: 25px;
 }
 .main-services-image{
-    width: 50%;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     background-image: url(/img/img__mobile/i4__mobile.png);
     background-size: cover;
     background-position: center;
@@ -78,14 +78,9 @@
 }
 /* laptop min-width 768px */
 @media (min-width: 768px){
-    .our-service-body__text-head{
-        font-size: 0.7em;
-    }
-    .our-service-body__text-bottom{
-        font-size: 0.5em;
-    }
     .main-services-image{
         height: 355px;
+        width: 330px;
     }
     .secton-six__image{
         height: 300px;
@@ -100,6 +95,7 @@
         height: 850px;
     }
     .main-services{
+        align-self: center;
         height: 100%;
         width: 65%;
     }
@@ -110,19 +106,21 @@
     .our-servise-head{
         justify-content: center;
     }
+    .our-servise-head_text{
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
     .our-service-body{
         flex-flow: wrap;
+        align-content: center;
     }
     .our-service-body__item{
-        width: 35%;
-        height: 35%;
+        width: 40%;
+        height: 40%;
         align-self: center;
     }
-    .our-service-body__text-head{
-        font-size: 0.6em;
-    }
     .our-service-body__text-bottom{
-        font-size: 0.4em;
+        font-size: 0.7em;
     }
     .our-service-body_column{
         flex-flow: column;
@@ -132,8 +130,15 @@
         width: 60%;
     }
     .secton-six__image{
+        background-image: url(/img/i1.png);
         height: 80%;
         transform: translateX(125px);
         align-self: flex-end;
+    }
+}
+/* desktop min-width 1280px */
+@media (min-width: 1280px){
+    .main-services-image{
+        height: 500px;
     }
 }

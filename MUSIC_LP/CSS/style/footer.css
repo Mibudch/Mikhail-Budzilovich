@@ -11,7 +11,7 @@
 }
 .footer__contact-header{
     display: block;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 500;
     text-transform: uppercase;
     padding-bottom: 20px;
@@ -32,7 +32,7 @@
 }
 .footer__icon-style{
     color: white;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 .footer__adress{
     width: 70%;
@@ -42,14 +42,14 @@
 .footer__top-adress{
     display: block;
     text-transform: uppercase;
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
     padding-bottom: 10px;
 }
 .footer__bottom-adress{
     display: block;
     color: #343a40;
-    font-size: 0.6em;
+    font-size: 0.7em;
     font-weight: 500;
 }
 .footer__input-item{
@@ -60,7 +60,7 @@
     width: 30%;
 }
 .social-item{
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
 }
 .footer__input-text{
@@ -88,7 +88,7 @@
 .footer__link{
     text-transform: uppercase;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -108,33 +108,20 @@
     padding-bottom: 20px;
 }
 .footer__copyright{
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
     line-height: 1.8;
     color: white;
 }
 /* laptop min-width 768px */
 @media (min-width: 768px){
-    .footer__contact-header{
-        font-size: 0.9em;
-    }
     .footer__icon{
         margin-right: 40px;
         width: 60px;
         height: 60px;
     }
-    .footer__top-adress{
-        font-size: 0.5em;
-    }
-    .footer__bottom-adress{
-        font-size: 0.5em;
-    }
-    .social-item{
-        font-size: 0.5em;
-    }
     .footer__link{
         width: 25%;
-        font-size: 0.6em;
     }
 }
 /* desktop min-width 1024px */
@@ -154,7 +141,14 @@
     .footer__button{
         width: 100%
     }
-    .footer__copyright {
-        font-size: 0.5em;
+}
+/* desktop min-width 1280px */
+@media (min-width: 1280px){
+    .footer__input-item{
+        padding-bottom: 20px;
+    }
+    .footer__link{
+        width: 20%;
+        height: 45px;
     }
 }

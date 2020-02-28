@@ -34,13 +34,13 @@
 .about__item_text-size_xxl{
     text-transform: uppercase;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-weight: 600;
     text-shadow: 0 0.03em black;
 }
 .about__item_text-size_m{
     color: white;
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
 }
 .about__link{
@@ -57,7 +57,7 @@
 }
 .about__link_text-size_m{
     color: white;
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -75,14 +75,8 @@
         width: 80%;
         padding-top: 40px;
     }
-    .about__item_text-size_m{
-        font-size: 0.5em;
-    }
     .about__link{
         width: 30%;   
-    }
-    .about__link_text-size_m{
-        font-size: 0.6em;
     }
 }
 /* desktop min-width 1024px */
@@ -99,4 +93,15 @@
         height: 100%;
         background-image: url(/img/about.jpg);
     }   
+}
+/* desktop min width 1280px */
+@media (min-width: 1280px){
+    .about__item_text-size_m{
+        line-height: 2;
+        display: block;
+    }
+    .about__link {
+        width: 40%;
+        height: 45px;
+    }
 }

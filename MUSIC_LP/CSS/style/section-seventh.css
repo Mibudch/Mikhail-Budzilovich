@@ -50,12 +50,12 @@
 }
 .card-text_head-text{
     color: #02b875;
-    font-size: 0.9em;
+    font-size: 1.2em;
     font-weight: 500;
     padding-bottom: 20px;
 }
 .card-text_main-text{
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
     line-height: 1.8;
     color: #333;
@@ -86,10 +86,10 @@
     color: white;
     font-weight: 600;
     text-shadow: 0px 1px 1px #000000;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 .card__body-text{
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
     line-height: 1.8;
     color: white;
@@ -98,7 +98,7 @@
 .card__link{
     text-transform: uppercase;
     color: white;
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -120,18 +120,8 @@
         width: 320px;
         height: 200px;
     }
-    .card-text_head-text{
-        font-size: 0.6em;
-    }
-    .card-text_main-text{
-        font-size: 0.5em;
-    }
-    .card__body-text{
-        font-size: 0.5em;
-    }
     .card__link{
         width: 25%;
-        font-size: 0.5em;
     }
 }
 /* desktop min-width 1024px */
@@ -155,13 +145,20 @@
     .card__link {
         width: 50%;
     }
-    .card__body-text {
-        font-size: 0.4em;
-    }
     .card-text_head-text {
-        font-size: 0.5em;
+        font-size: 1em;
     }
     .card-text_main-text {
-        font-size: 0.4em;
+        font-size: 0.8em;
+    }
+}
+/* desktop min-width 1280px */
+@media (min-width: 1280px){
+    .card__image {
+        height: 200px;
+    }
+    .card__link {
+        width: 40%;
+        height: 45px;
     }
 }

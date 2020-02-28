@@ -25,35 +25,30 @@
     color: white;
     font-weight: 600;
     text-shadow: 0px 1px 1px #000000;
-    font-size: 1.2em;
+    font-size: 1.6em;
     padding-bottom: 20px;
 }
 .bottom-board__item_item-medium{
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 600;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
 .bottom-board__item_item-bottom{
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
     line-height: 1.8;
     color: white;
 }
-/* laptop min-width 768px */
-@media (min-width: 768px){
-    .bottom-board__item_item-bottom{
-        font-size: 0.5em;
-    }
-}
 /* desktop min-width 1024px */
 @media (min-width: 1024px){
+    .bottom-board{
+        width: 100%;
+        background-image: url(/img/slide.jpg);
+    }
     .bottom-board__content {
         padding-top: 70px;
         padding-bottom: 70px;
-    }
-    .bottom-board__item_item-bottom {
-        font-size: 0.4em;
     }
 }
