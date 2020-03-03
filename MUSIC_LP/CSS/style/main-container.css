@@ -1,9 +1,9 @@
 @import url(/CSS/style/header.css);
-@import url(/CSS/style/section-first.css);
-@import url(/CSS/style/section-second.css);
-@import url(/CSS/style/section-third.css);
-@import url(/CSS/style/section-forth-six.css);
-@import url(/CSS/style/section-fifth.css);
-@import url(/CSS/style/section-seventh.css);
-@import url(/CSS/style/section-eighth.css);
+@import url(/CSS/style/section-banner.css);
+@import url(/CSS/style/section-about.css);
+@import url(/CSS/style/section-advantages.css);
+@import url(/CSS/style/section-services.css);
+@import url(/CSS/style/section-slider.css);
+@import url(/CSS/style/section-blog.css);
+@import url(/CSS/style/section-bottom-banner.css);
 @import url(/CSS/style/footer.css);
